@@ -14,8 +14,9 @@ Carolina Azevedo - Whatsapp (84) 99613-2365
 # Documentação
 
 1. [Documento de Visão](documentação/visao/doc-visao.md)
-2. [Modelo de Casos de Uso](documentação/casos-de-uso/casos_de_uso.png)
-2. [Listagens dos CDUs](documentação/casos-de-uso/listagem.md)
+2. [Lista de Riscos](documentação/visao/riscos.md)
+3. [Modelo de Casos de Uso](documentação/casos-de-uso/casos_de_uso.png)
+4. [Listagens dos CDUs](documentação/casos-de-uso/listagem.md)
 
 # Manual da Desenvolvedor
 
