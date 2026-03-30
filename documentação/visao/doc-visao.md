@@ -7,7 +7,7 @@
 
 ## 1\. Visão Geral do Sistema Proposto
 
-   Dayart é um site de mostruário e vendas online de artesanato com tecido e bordado personalizado do cliente
+   Day'art é um site de mostruário e vendas online de artesanato com tecido e bordado personalizado do cliente
 
 ## 2\. Descrição do Problema  
 | | |  
