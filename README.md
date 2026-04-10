@@ -15,8 +15,12 @@ Carolina Azevedo - Whatsapp (84) 99613-2365
 
 1. [Documento de Visão](documentação/visao/doc-visao.md)
 2. [Lista de Riscos](documentação/visao/riscos.md)
-3. [Modelo de Casos de Uso](documentação/casos-de-uso/casos_de_uso.png)
-4. [Listagens dos CDUs](documentação/casos-de-uso/listagem.md)
+3. [Listagens dos CDUs](documentação/casos-de-uso/listagem.md)
+4. [Modelo de Casos de Uso](documentação/casos-de-uso/DiagramaCasosDeUso.png)
+5. [Modelo de Casos de Dominio](documentação/classes-de-dominio/DiagramaClassesDeDominio.png)
+6. [Modelo de Atividade](documentação/atividade/DiagramaAtividade.png)
+7. [Modelo de Deployment](documentação/deployment/DiagramaDeployment.png)
+8. [Modelo de Pacote](documentação/pacote/DiagramaPacote.png)
 
 # Manual da Desenvolvedor
 

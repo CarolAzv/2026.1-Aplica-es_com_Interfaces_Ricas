@@ -92,27 +92,27 @@
 
 | Código | Nome | Descrição | Prioridade |
 | :----: | :--: | :-------: | :--------: |
-| RF01 | Cadastro | Visitantes podem cadastrar uma conta | Alta |
-| RF02 | Login | Usuários podem fazer login | Alta |
-| RF03 | Logout | Usuários podem fazer logout | Alta |
-| RF04 | Pesquisa de produto |  Usuários podem buscar produtos por filtros ou a barra de pesquisa | Alta |
-| RF05 | Página do produto | todos os produtos devem ter a própria página, mostrando informações e imagens do produto | Alta |
-| RF06 | Perfil do usuário | Usuários cadastrados podem ver sua própria página de perfil | Alta |
-| RF07 | Adicionar ao carrinho | Clientes podem adicionar produtos ativados no carrinho | Alta |
-| RF08 | Finalizar compra | Clientes com itens no carrinho podem finalizar a compra os itens pedidos | Alta |
-| RF09 | Adicionar cartão | Clientes podem adicionar um cartão a conta para facilitar e agilizar pagamentos | Alta |
-| RF10 | Avaliar produto | Produtos comprados podem ser avaliados por compradores | Média |
-| RF11 | Criar produto | Administração podem criar um novo produto com nome, descrição, imagens e estoque | Média |
-| RF12 | Adicionar estoque | Administração podem adicionar estoque a um produto existente | Média |
-| RF13 | Editar página do produto | Administração podem editar uma página de produto para atualizar suas informações | Média |
-| RF14 | Produto Desativo | Administração podem desativar produtos, produtos desativados não tem estoque e funcionam somente como mostruário | Média |
-| RF15 | Produto Ativo | Administração podem ativar produtos, produtos ativados têm estoque e estão à venda | Média |
-| RF16 | Deletar produto | Administração podem deletar um produto, removendo do mostruário | Baixa |
-| RF17 | Começar encomenda | Clientes podem começar uma encomenda na página de perfil | Baixa |
-| RF18 | Chat de encomenda | Clientes e Administração poderão conversar sobre a encomenda pelo chat de encomenda | Baixa |
-| RF19 | Aceitar encomenda | Administração podem Aceitar uma encomenda aberta, transformando ela em um pedido | Baixa |
-| RF20 | Rejeitar encomenda | Administração podem rejeitar uma encomenda aberta, fechando a encomenda | Baixa |
-| RF21 | Cancelar encomenda | Usuário podem cancelar uma encomenda aberta, fechando a encomenda | Baixa |
+| RF01 | Página do produto | todos os produtos devem ter a própria página, mostrando informações e imagens do produto | Alta |
+| RF02 | Pesquisar produto |  Usuários podem buscar produtos por filtros ou a barra de pesquisa | Alta |
+| RF03 | Adicionar produto | Administração pode adicionar um novo produto com nome, descrição, imagens e estoque | Alta |
+| RF04 | Cadastro | Visitantes podem cadastrar uma conta | Alta |
+| RF05 | Login | Usuários podem fazer login | Alta |
+| RF06 | Logout | Usuários podem fazer logout | Alta |
+| RF07 | Começar encomenda | Usuários podem começar uma encomenda na página de perfil | Alta |
+| RF08 | Chat de encomenda | Alta |
+| RF09 | Aceitar encomenda | Administração poderá confirmar uma encomenda aberta, transformando ela em um pedido | Alta |
+| RF10 | Rejeitar encomenda | Administração poderá rejeitar uma encomenda aberta, fechando a encomenda | Média |
+| RF11 | Cancelar encomenda | Usuário poderá cancelar uma encomenda aberta, fechando a encomenda | Média |
+| RF12 | Perfil do usuário | Usuários cadastrados devem poder ver sua própria página de perfil | Média |
+| RF13 | Adicionar estoque | Administração deve poder adicionar estoque a um produto existente | Média |
+| RF14 | Editar página do produto | Administração pode editar uma página de produto para atualizar suas informações | Média |
+| RF15 | Produto Desativo | Administração pode desativar produtos, produtos desativados funcionam somente como mostruário | Média |
+| RF16 | Produto Ativo | Administração pode ativar produtos, produtos ativados têm estoque e estão à venda | Média |
+| RF17 | Deletar produto | Administração pode deletar um produto, removendo do mostruário | Baixa |
+| RF18 | Adicionar ao carrinho | Usuários podem adicionar produtos ativados no carrinho | Priorade Baixa |
+| RF19 | Finalizar compra | Usuários com itens no carrinho podem finalizar a compra e ter um pedido  | Baixa |
+| RF20 | Avaliar produto | Produtos comprados podem ser avaliados por compradores | Baixa |
+| RF21 | Adicionar cartão | Clientes podem adicionar um cartão a conta para facilitar e agilizar pagamentos | Baixa |
 
  **Prioridade**: alta, média ou baixa
 
