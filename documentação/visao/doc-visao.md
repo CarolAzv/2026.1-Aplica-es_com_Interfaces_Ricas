@@ -106,8 +106,8 @@
 | RF12 | Perfil do usuário | Usuários cadastrados devem poder ver sua própria página de perfil | Média |
 | RF13 | Adicionar estoque | Administração deve poder adicionar estoque a um produto existente | Média |
 | RF14 | Editar página do produto | Administração pode editar uma página de produto para atualizar suas informações | Média |
-| RF15 | Desativar produto | Administração pode desativar produtos, produtos desativados funcionam somente como mostruário | Média |
-| RF16 | Ativar produto | Administração pode ativar produtos, produtos ativados têm estoque e estão à venda | Média |
+| RF15 | Produto Desativo | Administração pode desativar produtos, produtos desativados funcionam somente como mostruário | Média |
+| RF16 | Produto Ativo | Administração pode ativar produtos, produtos ativados têm estoque e estão à venda | Média |
 | RF17 | Deletar produto | Administração pode deletar um produto, removendo do mostruário | Baixa |
 | RF18 | Adicionar ao carrinho | Usuários podem adicionar produtos ativados no carrinho | Baixa |
 | RF19 | Finalizar compra | Usuários com itens no carrinho podem finalizar a compra e ter um pedido  | Baixa |
