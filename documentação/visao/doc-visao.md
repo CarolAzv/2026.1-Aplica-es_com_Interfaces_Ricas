@@ -94,7 +94,7 @@
 | :----: | :--: | :-------: | :--------: |
 | RF01 | Página do produto | todos os produtos devem ter a própria página, mostrando informações e imagens do produto | Alta |
 | RF02 | Pesquisar produto |  Usuários podem buscar produtos por filtros ou a barra de pesquisa | Alta |
-| RF03 | Adicionar produto | Administração pode adicionar um novo produto com nome, descrição, imagens e estoque | Média |
+| RF03 | Adicionar produto | Administração pode adicionar um novo produto com nome, descrição, imagens e estoque | Alta |
 | RF04 | Cadastro | Visitantes podem cadastrar uma conta | Alta |
 | RF05 | Login | Usuários podem fazer login | Alta |
 | RF06 | Logout | Usuários podem fazer logout | Alta |
