@@ -2,7 +2,7 @@
 
 01. Página do produto | todos os produtos devem ter a própria página, mostrando informações e imagens do produto | Prioridade Alta |
 02. Pesquisar produto |  Usuários podem buscar produtos por filtros ou a barra de pesquisa | Prioridade Alta |
-03. Adicionar produto | Administração pode adicionar um novo produto com nome, descrição, imagens e estoque | Prioridade Alta |
+03. Criar produto | Administração pode adicionar um novo produto com nome, descrição, imagens e estoque | Prioridade Alta |
 04. Cadastro | Visitantes podem cadastrar uma conta | Prioridade Alta |
 05. Login | Usuários podem fazer login | Prioridade Alta |
 06. Logout | Usuários podem fazer logout | Prioridade Alta |
@@ -14,8 +14,8 @@
 12. Perfil do usuário | Usuários cadastrados devem poder ver sua própria página de perfil | Prioridade Média |
 13. Adicionar estoque | Administração deve poder adicionar estoque a um produto existente | Prioridade Média |
 14. Editar página do produto | Administração pode editar uma página de produto para atualizar suas informações | Prioridade Média |
-15. Produto Desativo | Administração pode desativar produtos, produtos desativados funcionam somente como mostruário | Prioridade Média |
-16. Produto Ativo | Administração pode ativar produtos, produtos ativados têm estoque e estão à venda | Prioridade Média |
+15. Desativar Produto | Administração pode desativar produtos, produtos desativados funcionam somente como mostruário | Prioridade Média |
+16. Ativar Produto | Administração pode ativar produtos, produtos ativados têm estoque e estão à venda | Prioridade Média |
 17. Deletar produto | Administração pode deletar um produto, removendo do mostruário | Prioridade Baixa |
 18. Adicionar ao carrinho | Usuários podem adicionar produtos ativados no carrinho | Prioridade Baixa |
 19. Finalizar compra | Usuários com itens no carrinho podem finalizar a compra e ter um pedido  | Prioridade Baixa |
