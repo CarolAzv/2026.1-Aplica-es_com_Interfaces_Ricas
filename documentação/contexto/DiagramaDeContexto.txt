@@ -1,0 +1,22 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_LANDSCAPE()
+
+title Diagrama de Contexto
+
+Person(user, "Visitante", "Usuário sem autentivicação. Pode ver o mostruário")
+Person(user2, "Cliente", "Usuário autentivicado. Pode iniciar uma encomenda e realizar compras")
+Person(user3, "administração", "administração. Responsavel pela manutenção do site")
+
+
+System(system, "Day'Art", "Um mostruário e espaço de encomendas de artesanatos em tecido nordestinos")
+
+System_Ext(api_MercadoPago, "MercadoPago", "API externo para auxiliar no pagamento de compras e encomendas")
+
+Rel(user, system, "Ve o mostruário de produtos e utilizar a pesquisa e filtragem de itens")
+Rel(user2, system, "Pode iniciar uma encomenda e realizar compras")
+Rel(user3, system, "Edita, adiciona e deleta produtos, adiciona estoque e aceita ou recura encomendas")
+Rel(system, api_MercadoPago, "Integração com a API externa do MercadoPago")
+
+@enduml

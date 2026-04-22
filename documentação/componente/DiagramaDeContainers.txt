@@ -1,0 +1,25 @@
+@startuml
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_LANDSCAPE()
+
+title Diagrama de Containers
+
+Person(user, "Cliente", "Cliente que interage com o sistema via navegador web")
+
+
+System_Boundary(system, "Sistema de Geranciamento do Day'Art") {
+  Container(frontend, "Aplicação Frontend", "React 19.2.4; Nginx 1.28", "Interface do usuário para ver o mostruário, começar encomendas e realizar compras")
+  Container(backend, "Aplicação Backend", "Django REST 5.2; Gunicorn 24.1; Python 3.13", "API que fornece os serviços para autenticação de clientes e geração de contas via HTTP+JSON")
+  ContainerDb(database, "Banco de Dados", "PostgreSQL 18", "Armazena dados dos usuários, produtos, pedidos, encomendas e conversas")
+}
+
+Container_Ext(api_MercadoPago, "MercadoPago", "API externa", "API externa para auxiliar na geração de boletos bancários")
+
+Rel(user, frontend, "Ve o mostruário, começa encomendas e realiza compras")
+Rel(frontend, backend, "Chamada para a API (JSON/HTTP)")
+Rel(backend, api_MercadoPago, "Integração com a API externa do MercadoPago")
+Rel(backend, database, "Acessa informações dos usuários, produtos, pedidos, encomendas e conversas")
+
+@enduml
